@@ -8,12 +8,16 @@
     "mvvmfrontzsq": "start.js"
   },
   "scripts": {
-    "test": "test"
+    "dev": "supervisor -w build ./build/server.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com//xiuyangzhe/mvvmfrontzsq.git"
   },
   "author": "rocky",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.15"
+  }
 }
