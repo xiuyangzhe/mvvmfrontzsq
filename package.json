@@ -1,7 +1,19 @@
 {
   "name": "mvvmfrontzsq",
   "version": "1.0.0",
-  "dependencies": {
-    
-  }
+  "dependencies": {},
+  "description": "前端框架，mvvm结构 zsqfront",
+  "main": "app.js",
+  "bin": {
+    "mvvmfrontzsq": "start.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//xiuyangzhe/mvvmfrontzsq.git"
+  },
+  "author": "rocky",
+  "license": "ISC"
 }
